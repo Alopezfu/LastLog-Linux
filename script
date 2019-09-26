@@ -1,0 +1,7 @@
+#!/bin/bash
+files=$(ls /var/log/auth.log*)
+
+for file in $files
+do
+   cat $file | grep error >> /var/www/webalizer/seguridad/out
+done

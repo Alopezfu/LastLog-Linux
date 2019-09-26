@@ -1,0 +1,49 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+body{
+
+    background: #2c3e50;
+}
+
+h1{
+
+    font-size: 3em;
+    text-align: center;
+    padding: 30px;
+}
+
+div{
+
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    background: #34495e;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+a{
+
+    transition: 0.3s ease;
+    display: block;
+    text-align: center;
+    font-size: 1.5em;
+    text-decoration: none;
+    width: 200px;
+    padding: 10px;
+    margin: 30px auto;
+}
+
+a:hover{
+
+    background: #fff;
+    transition: all 0.3s ease;
+    color: #000;
+}
